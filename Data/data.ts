@@ -179,32 +179,36 @@ export const skillsData = [
 
 export const clientReviews = [
   {
+    id: 1,
     name: "John Doe",
-    review:
+    clientReview:
       "Exceptional service! The team delivered exactly what we needed on time. Very professional",
     rating: 5,
     profession: "Marketing Manager",
     image: "/images/u1.jpg",
   },
   {
+    id: 2,
     name: "Jane Smith",
-    review:
+    clientReview:
       "Highly skilled developers who understand the client's vision and execute perfectly.",
     rating: 4.8,
     profession: "Business Owner",
     image: "/images/u2.jpg",
   },
   {
+    id: 3,
     name: "Michael Johnson",
-    review:
+    clientReview:
       "Great communication and excellent results. Our new site performs beautifully.",
     rating: 4.6,
     profession: "Project Coordinator",
     image: "/images/u3.jpg",
   },
   {
+    id: 4,
     name: "Emily Brown",
-    review:
+    clientReview:
       "Professional, efficient, and highly knowledgeable. Would definitely recommend their services!",
     rating: 4.9,
     profession: "Creative Director",
