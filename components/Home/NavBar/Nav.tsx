@@ -39,20 +39,22 @@ export default function Nav({ openNav }: Props) {
       >
         <div className="flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto">
           {/* logo */}
-          <Image
-            src={logo}
-            alt="Logo"
-            width={250}
-            height={250}
-            className="ml-[-1.5rem sm:ml-0]"
-          />
+          <Link href="/">
+            <Image
+              src={logo}
+              alt="Logo"
+              width={250}
+              height={250}
+              className="ml-[-1.5rem sm:ml-0]"
+            />
+          </Link>
           {/* nav link */}
           <div className="flex items-center space-x-10">
             <div className="hidden lg:flex items-center space-x-8">
-              {navLinks.map((navlink) => {
+              {navLinks.map((navLink) => {
                 return (
-                  <Link href={navlink.url} key={navlink.id}>
-                    <p className="nav_link">{navlink.lable}</p>
+                  <Link href={navLink.url} key={navLink.id}>
+                    <p className="nav_link">{navLink.lable}</p>
                   </Link>
                 );
               })}

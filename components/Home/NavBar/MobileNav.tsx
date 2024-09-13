@@ -17,15 +17,15 @@ export default function MobileNav({ showNav, closeNav }: Props) {
         <div
           className={`fixed ${navOpen} transform transition-all duration-500 inset-0 z-[1000] bg-black opacity-70 w-full h-screen`}
         ></div>
-        {/* navlinks */}
+        {/* navLinks */}
         <div
           className={`text-white ${navOpen} transform transition-all duration-300 fixed justify-center flex flex-col h-full w-[80%] sm:w-[60%] bg-[#0f0715] space-y-6 z-[10000]`}
         >
-          {navLinks.map((navlink) => {
+          {navLinks.map((navLink) => {
             return (
-              <Link href={navlink.url} key={navlink.id}>
+              <Link href={navLink.url} key={navLink.id}>
                 <p className="nav_link text-[20px] ml-12 border-b-[1.5px] pb-2 border-white sm:text-[30px]">
-                  {navlink.lable}
+                  {navLink.lable}
                 </p>
               </Link>
             );
