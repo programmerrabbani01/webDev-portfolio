@@ -5,6 +5,7 @@ import Services from "./Services/Services.tsx";
 import Project from "./Project/Project.tsx";
 import Skill from "./Skill/Skill.tsx";
 import ClientReviews from "./ClientReviews/ClientReviews.tsx";
+import Blog from "./Blog/Blog.tsx";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Project />
         <Skill />
         <ClientReviews />
+        <Blog />
       </div>
     </>
   );
