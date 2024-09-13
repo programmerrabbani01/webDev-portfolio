@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Sora } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "@/components/Home/NavBar/ResponsiveNav.tsx";
+import Footer from "@/components/Home/Footer/Footer.tsx";
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
@@ -38,6 +39,7 @@ export default function RootLayout({
       >
         <ResponsiveNav />
         {children}
+        <Footer />
       </body>
     </html>
   );

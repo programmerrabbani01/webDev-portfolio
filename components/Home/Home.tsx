@@ -20,6 +20,7 @@ export default function Home() {
         <ClientReviews />
         <Blog />
         <Contact />
+        
       </div>
     </>
   );
