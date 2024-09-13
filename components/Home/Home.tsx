@@ -6,6 +6,7 @@ import Project from "./Project/Project.tsx";
 import Skill from "./Skill/Skill.tsx";
 import ClientReviews from "./ClientReviews/ClientReviews.tsx";
 import Blog from "./Blog/Blog.tsx";
+import Contact from "./Contact/Contact.tsx";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Skill />
         <ClientReviews />
         <Blog />
+        <Contact />
       </div>
     </>
   );
