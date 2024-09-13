@@ -16,7 +16,7 @@ export default function About() {
         {/* content */}
         <div className="w-4/5 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20">
           {/* text content */}
-          <div className="">
+          <div data-aos="fade-left" data-aos-anchor-placement="top-center">
             <h1 className="text_bg text-[26px] sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-300">
               {aboutInfo.title}
             </h1>
@@ -55,7 +55,11 @@ export default function About() {
             </div>
           </div>
           {/* status content */}
-          <div className="grid grid-cols-2 gap-16 items-center lg:mx-auto">
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="150"
+            className="grid grid-cols-2 gap-16 items-center lg:mx-auto"
+          >
             {/*  */}
             <div>
               <Image

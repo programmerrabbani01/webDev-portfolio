@@ -35,7 +35,7 @@ export default function Slider() {
       >
         {clientReviews.map((review) => {
           return (
-            <div key={review.id} className="">
+            <div key={review.id} className="" >
               {/* client review card */}
               <ClientReviewsCard review={review} />
             </div>

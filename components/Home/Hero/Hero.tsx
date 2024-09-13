@@ -12,25 +12,44 @@ export default function Hero() {
             {/* content */}
             <div className="">
               {/* sub title */}
-              <h1 className="text-2xl md:text-3xl lg:text-4xl mb-5 text-gray-300 font-semibold">
+              <h1
+                data-aos="fade-left"
+                className="text-2xl md:text-3xl lg:text-4xl mb-5 text-gray-300 font-semibold"
+              >
                 I Am {BaseInfo.name}
               </h1>
               {/* title */}
-              <h1 className="text_bg text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[4rem] text-white">
+              <h1
+                data-aos="fade-right"
+                data-aos-delay="100"
+                className="text_bg text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[4rem] text-white"
+              >
                 {BaseInfo.position}
               </h1>
               {/* description */}
-              <p className="mt-6 text-sm md:text-base text-white text-opacity-60">
+              <p
+                data-aos="fade-left"
+                data-aos-delay="200"
+                className="mt-6 text-sm md:text-base text-white text-opacity-60"
+              >
                 {BaseInfo.description}
               </p>
               {/* buttton */}
-              <button className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex items-center space-x-2">
+              <button
+                data-aos="zoom-in"
+                data-aos-delay="300"
+                className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex items-center space-x-2"
+              >
                 <span>Download CV</span>
                 <FaDownload />
               </button>
             </div>
             {/* image */}
-            <div className="mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950 overflow-hidden">
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="400"
+              className="mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950 overflow-hidden"
+            >
               <Image
                 src={BaseInfo.profilePic}
                 alt={BaseInfo.name}
