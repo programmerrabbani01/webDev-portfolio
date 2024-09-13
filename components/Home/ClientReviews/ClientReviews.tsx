@@ -5,7 +5,7 @@ import Slider from "./Slider.tsx";
 export default function ClientReviews() {
   return (
     <>
-      <div className="pt-16 pb-16 bg-[#050709]">
+      <div id="review" className="pt-16 pb-16 bg-[#050709]">
         {/* section heading */}
         <SectionHeading>Client Reviews</SectionHeading>
         {/* content */}

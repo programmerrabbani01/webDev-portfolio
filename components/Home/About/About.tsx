@@ -10,7 +10,7 @@ import websiteImage from "@/public/images/rocket.png";
 export default function About() {
   return (
     <>
-      <div className="pt-16 pb-16 bg-[#050709]">
+      <div id="about" className="pt-16 pb-16 bg-[#050709]">
         {/* section Heading */}
         <SectionHeading>About Me</SectionHeading>
         {/* content */}

@@ -6,7 +6,7 @@ import ServiceCard from "./ServiceCard.tsx";
 export default function Services() {
   return (
     <>
-      <div className="pt-16 pb-16 bg-[#0f0715]">
+      <div id="services" className="pt-16 pb-16 bg-[#0f0715]">
         {/* section Heading */}
         <SectionHeading>Services</SectionHeading>
         {/* content */}

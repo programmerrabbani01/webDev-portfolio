@@ -7,7 +7,7 @@ import React from "react";
 export default function Project() {
   return (
     <>
-      <div className="pt-16 pb-16 bg-[#050709]">
+      <div id="project" className="pt-16 pb-16 bg-[#050709]">
         {/* section heading */}
         <SectionHeading>My Project</SectionHeading>
         {/* content */}

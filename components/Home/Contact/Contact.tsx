@@ -6,7 +6,7 @@ import ContactInfo from "./ContactInfo.tsx";
 export default function Contact() {
   return (
     <>
-      <div className="pt-16 pb-16 bg-[#050709]">
+      <div id="contact" className="pt-16 pb-16 bg-[#050709]">
         {/* section heading */}
         <SectionHeading>Contact Me</SectionHeading>
         {/* content */}
