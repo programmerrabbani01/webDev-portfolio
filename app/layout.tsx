@@ -5,6 +5,7 @@ import "./globals.css";
 import ResponsiveNav from "@/components/Home/NavBar/ResponsiveNav.tsx";
 import Footer from "@/components/Home/Footer/Footer.tsx";
 import ScrollToTop from "@/components/Helper/ScrollToTop.tsx";
+import AnimatedCursor from "react-animated-cursor";
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
@@ -38,6 +39,21 @@ export default function RootLayout({
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         className={sora.className}
       >
+        <div className="hidden md:block">
+          <AnimatedCursor
+            innerSize={8}
+            outerSize={35}
+            innerScale={2}
+            outerScale={2}
+            outerAlpha={0}
+            innerStyle={{
+              backgroundColor: "white",
+            }}
+            outerStyle={{
+              border: "3px solid #ffffff",
+            }}
+          />
+        </div>
         <ResponsiveNav />
         {children}
         <Footer />
