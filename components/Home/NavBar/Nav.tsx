@@ -2,7 +2,7 @@
 
 import Image from "next/image.js";
 // import logo from "@/public/images/logo.png";
-import logo from "@/public/images/myLogo.png";
+import logo from "@/public/images/logo.png";
 import Link from "next/link.js";
 import { navLinks } from "@/constant/constant.ts";
 import { HiBars3BottomRight } from "react-icons/hi2";
@@ -43,9 +43,9 @@ export default function Nav({ openNav }: Props) {
             <Image
               src={logo}
               alt="Logo"
-              width={250}
-              height={250}
-              className="ml-[-1.5rem sm:ml-0]"
+              width={170}
+              height={170}
+              className="ml-[-1.5rem] sm:ml-0"
             />
           </Link>
           {/* nav link */}
