@@ -24,8 +24,8 @@ const sora = Sora({
 });
 
 export const metadata: Metadata = {
-  title: "Programmerrabbani",
-  description: "Programmerrabbani Portfolio With Next JS",
+  title: "Web-Dev",
+  description: "Web-Dev Portfolio With Next JS",
 };
 
 export default function RootLayout({
